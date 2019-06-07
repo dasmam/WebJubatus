@@ -18,25 +18,23 @@ body {
 	font-family: 'OpenSans-Regular', times, sans-serif;
 	margin:0;
 	padding: 0;
-	background: #E9D17B;
-
+	background:white;
 }
 
 header {
-
+	border-bottom: 1px solid;
 	background-color:#f7edc8;
 	padding: 4px;
-	background-image: url("../img/cheetah100.png");
-	background-position: left center;
+	background-image: url("../img/duma.png");
+	background-position:center;
 	background-repeat: no-repeat;
-	min-height: 150px;
-
+	background-size: cover;
+	min-height: 300px;
 }
 	
-
 h1 {
 	font-family: 'Yanone', times, sans-serif;
-	font-size: 45px;
+	font-size: 5rem;
 	padding:0;
 	width: 400px;
 	margin: 0 auto;
@@ -50,47 +48,12 @@ header p, h3 {
 	width: 550px;
 	font-family: 'Yanone', times, sans-serif;
 	text-align: center;
-	font-size: 25px;
+	font-size: 2rem;
 }
+
 
 /*--------------- Navegación -------------------*/
  
-.menu{
-	background-color: black;
-
-}
-
-.menu ul {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
-	
-}
-
-.menu ul li {
-
-	list-style-type: none;
-	display: inline;
-	margin: 0;
-	text-align: center;
-	font-size: 20px;
-	
-}
-
-.menu ul li a {
-	padding: 0px 25px;
-	color:  white;
-	text-decoration: none;
-
-
-}
-
-.menu ul li a:hover {
-	color: black;
-	background-color: white;
-
-}
 /*--------------- FIN Navegación -------------------*/
 
 
@@ -98,52 +61,6 @@ section {
 	margin: 5px;
 	display: flex;
 	justify-content: center;
-
-}
-.cajaseccion {
-	display: flex;
-	width: 80%;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.cajaseccion a:link {
-	text-decoration: none;
-}
-
-.cajaseccion a:visited {
-	color: black;
-}
-
-.cajaseccion a:active {
-	color: #e9d17b;
-}
-
-
-.cajas {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	margin: 10px;
-	width: 200px;
-	height: 200px;
-	background: #f9f1d3;
-	font-size: 20px;
-	border:1px solid black;
-	box-shadow: 4px 4px 4px #000;
-
-}
-
-
-
-.cajas p {
-	margin: 0;
-	text-align: center;
-}
-
-.cajas:hover {
-	background-color: #fffff3;
 }
 
 
@@ -161,7 +78,7 @@ footer {
 
 footer .iconos {
 	display: block;
-	margin bottom: 50px;
+	margin-bottom: 10px;
 }
 
 footer a:link {
