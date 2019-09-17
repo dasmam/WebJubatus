@@ -99,7 +99,7 @@ section {
 .caja__repositorios:hover {
 	transform: scale(1.01);
 	border:1px solid rgb(236, 231, 231);
-	box-shadow: -3px 3px 4px rgb(233, 229, 229);
+	box-shadow: -3px 3px 4px rgb(97, 96, 96);
 
 }
 
